@@ -1,4 +1,33 @@
-motion-scene-kit
-================
+# motion-scene-kit
 
-Coming soon
+### SceneKit stuff in RubyMotion
+
+Some things wrapped, new stuff added, some pain removed
+
+**This is very preliminary, I'm using it in a real app, but it's very rough at this point. Also, I'm using this in OS X, I haven't tried it in iOS yet.**
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'motion-scene-kit'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install motion-scene-kit
+
+## Usage
+
+TODO: 
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request

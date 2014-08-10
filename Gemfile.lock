@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    motion-scene-kit (0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    geomotion (0.15.0)
+    rake (10.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  geomotion
+  motion-scene-kit!
+  rake
