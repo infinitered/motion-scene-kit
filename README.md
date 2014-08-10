@@ -10,15 +10,31 @@ Some things wrapped, new stuff added, some pain removed
 
 Add this line to your application's Gemfile:
 
-    gem 'motion-scene-kit'
+```
+gem 'motion-scene-kit'
+```
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install motion-scene-kit
+```
+$ gem install motion-scene-kit
+```
+
+Put this in your RakeFile file:
+
+```ruby
+app.frameworks += ["SceneKit", "QuartzCore", "GLKit", "AVFoundation"]
+```
+
+## Requires
+
+* Geomotion. You can use Geomotion's nice CATransform3D stuff
 
 ## Usage
 

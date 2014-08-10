@@ -19,4 +19,5 @@ end
 
 Motion::Project::App.setup do |app|
   app.name = 'motion-scene-kit'
+  app.frameworks += ["SceneKit", "QuartzCore", "GLKit", "AVFoundation"]
 end
