@@ -11,19 +11,14 @@ Some things wrapped, new stuff added, some pain removed
 Add this line to your application's Gemfile:
 
 ```
-gem 'motion-scene-kit'
+gem 'motion-scene-kit', :git => 'https://github.com/infinitered/motion-scene-kit'
+# gem 'motion-scene-kit'
 ```
 
 And then execute:
 
 ```
 $ bundle
-```
-
-Or install it yourself as:
-
-```
-$ gem install motion-scene-kit
 ```
 
 Put this in your RakeFile file:
