@@ -6,6 +6,8 @@ Some things wrapped, new stuff added, some pain removed
 
 **This is very preliminary, I'm using it in a real app, but it's very rough at this point. Also, I'm using this in OS X, I haven't tried it in iOS yet.**
 
+![image](http://ir_wp.s3.amazonaws.com/wp-content/uploads/sites/11/2014/08/motion-scene-kit-sample.jpg)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -30,6 +32,10 @@ app.frameworks += ["SceneKit", "QuartzCore", "GLKit", "AVFoundation"]
 ## Requires
 
 * Geomotion. You can use Geomotion's nice CATransform3D stuff
+
+## Sample app
+
+This repo has its own OSX sample app. It does not get included in the gem. Clone this repo, then bundle, then rake.
 
 ## Usage
 
