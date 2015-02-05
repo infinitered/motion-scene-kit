@@ -26,15 +26,13 @@ And then execute:
 $ bundle
 ```
 
-Put this in your RakeFile file:
-
-```ruby
-app.frameworks += ["SceneKit", "QuartzCore", "GLKit", "AVFoundation"]
-```
-
 ## Requires
 
 * Geomotion. You can use Geomotion's nice CATransform3D stuff
+
+## Uses Frameworks
+
+This gem will automatically link the following frameworks into your app: `SceneKit`, `QuartzCore`, `GLKit`, & `AVFoundation`
 
 ## Sample app
 
