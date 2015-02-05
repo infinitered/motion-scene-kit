@@ -185,7 +185,7 @@ class SCNUtils
       if degrees.is_a?(Array)
         degrees.map{|degree| degrees_to_radians(degree)}
       else
-        degrees * (Math::Pi / 180.0)
+        degrees * (Math::PI / 180.0)
       end
     end
 
