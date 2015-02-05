@@ -4,17 +4,20 @@
 
 Some things wrapped, new stuff added, some pain removed
 
-**This is very preliminary, I'm using it in a real app, but it's very rough at this point. Also, I'm using this in OS X, I haven't tried it in iOS yet.**
+**This is very preliminary, I'm using it in a real app, but it's very rough at this point.**
 
 ![image](http://ir_wp.s3.amazonaws.com/wp-content/uploads/sites/11/2014/08/motion-scene-kit-sample.jpg)
 
+Works in both OS X and iOS. You need to target iOS 8.0 or higher (8 is when Apple added SceneKit to iOS)
+
 ## Installation
+
+
 
 Add this line to your application's Gemfile:
 
 ```
 gem 'motion-scene-kit', :git => 'https://github.com/infinitered/motion-scene-kit'
-# gem 'motion-scene-kit'
 ```
 
 And then execute:
