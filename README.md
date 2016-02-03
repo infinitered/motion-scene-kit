@@ -10,6 +10,8 @@ Some things wrapped, new stuff added, some pain removed
 
 Works in both OS X and iOS. You need to target iOS 8.0 or higher (8 is when Apple added SceneKit to iOS)
 
+motion-scene-kit is a research project of ![Infinite Red](http://infinite.red), a web and mobile development company based in Portland, OR and San Francisco, CA.
+
 ## Installation
 
 
